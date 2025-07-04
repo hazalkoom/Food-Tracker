@@ -1,0 +1,9 @@
+Django~=5.0
+djangorestframework~=3.15
+djangorestframework-simplejwt~=5.3 # For JWT authentication, if you choose that over TokenAuthentication
+Pillow~=10.3 # If you're handling image uploads for avatars
+requests~=2.32 # For making HTTP requests to external APIs
+drf-yasg~=1.21 # For Swagger/OpenAPI documentation (optional but recommended)
+django-filter~=24.1 # For filtering API results (optional)
+psycopg2-binary~=2.9 # If you plan to use PostgreSQL in production
+python-decouple~=3.8 # For managing environment variables (optional but recommended)

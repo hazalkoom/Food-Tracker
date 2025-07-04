@@ -1,0 +1,1560 @@
+[
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "importPath": "decouple",
+        "description": "decouple",
+        "isExtraImport": true,
+        "detail": "decouple",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "TokenObtainPairView",
+        "importPath": "rest_framework_simplejwt.views",
+        "description": "rest_framework_simplejwt.views",
+        "isExtraImport": true,
+        "detail": "rest_framework_simplejwt.views",
+        "documentation": {}
+    },
+    {
+        "label": "TokenRefreshView",
+        "importPath": "rest_framework_simplejwt.views",
+        "description": "rest_framework_simplejwt.views",
+        "isExtraImport": true,
+        "detail": "rest_framework_simplejwt.views",
+        "documentation": {}
+    },
+    {
+        "label": "TokenVerifyView",
+        "importPath": "rest_framework_simplejwt.views",
+        "description": "rest_framework_simplejwt.views",
+        "isExtraImport": true,
+        "detail": "rest_framework_simplejwt.views",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "static",
+        "importPath": "django.conf.urls.static",
+        "description": "django.conf.urls.static",
+        "isExtraImport": true,
+        "detail": "django.conf.urls.static",
+        "documentation": {}
+    },
+    {
+        "label": "permissions",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "generics",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "generics",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "permissions",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "get_schema_view",
+        "importPath": "drf_yasg.views",
+        "description": "drf_yasg.views",
+        "isExtraImport": true,
+        "detail": "drf_yasg.views",
+        "documentation": {}
+    },
+    {
+        "label": "openapi",
+        "importPath": "drf_yasg",
+        "description": "drf_yasg",
+        "isExtraImport": true,
+        "detail": "drf_yasg",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "django.utils.timezone",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.utils.timezone",
+        "description": "django.utils.timezone",
+        "detail": "django.utils.timezone",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "IsAuthenticated",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "IsAuthenticated",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "AllowAny",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "APIView",
+        "importPath": "rest_framework.views",
+        "description": "rest_framework.views",
+        "isExtraImport": true,
+        "detail": "rest_framework.views",
+        "documentation": {}
+    },
+    {
+        "label": "APIView",
+        "importPath": "rest_framework.views",
+        "description": "rest_framework.views",
+        "isExtraImport": true,
+        "detail": "rest_framework.views",
+        "documentation": {}
+    },
+    {
+        "label": "Sum",
+        "importPath": "django.db.models",
+        "description": "django.db.models",
+        "isExtraImport": true,
+        "detail": "django.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "gettext_lazy",
+        "importPath": "django.utils.translation",
+        "description": "django.utils.translation",
+        "isExtraImport": true,
+        "detail": "django.utils.translation",
+        "documentation": {}
+    },
+    {
+        "label": "gettext_lazy",
+        "importPath": "django.utils.translation",
+        "description": "django.utils.translation",
+        "isExtraImport": true,
+        "detail": "django.utils.translation",
+        "documentation": {}
+    },
+    {
+        "label": "gettext_lazy",
+        "importPath": "django.utils.translation",
+        "description": "django.utils.translation",
+        "isExtraImport": true,
+        "detail": "django.utils.translation",
+        "documentation": {}
+    },
+    {
+        "label": "gettext_lazy",
+        "importPath": "django.utils.translation",
+        "description": "django.utils.translation",
+        "isExtraImport": true,
+        "detail": "django.utils.translation",
+        "documentation": {}
+    },
+    {
+        "label": "gettext_lazy",
+        "importPath": "django.utils.translation",
+        "description": "django.utils.translation",
+        "isExtraImport": true,
+        "detail": "django.utils.translation",
+        "documentation": {}
+    },
+    {
+        "label": "gettext_lazy",
+        "importPath": "django.utils.translation",
+        "description": "django.utils.translation",
+        "isExtraImport": true,
+        "detail": "django.utils.translation",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "django.utils",
+        "description": "django.utils",
+        "isExtraImport": true,
+        "detail": "django.utils",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "django.utils",
+        "description": "django.utils",
+        "isExtraImport": true,
+        "detail": "django.utils",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "django.utils",
+        "description": "django.utils",
+        "isExtraImport": true,
+        "detail": "django.utils",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "django.utils",
+        "description": "django.utils",
+        "isExtraImport": true,
+        "detail": "django.utils",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "decimal",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "decimal",
+        "description": "decimal",
+        "detail": "decimal",
+        "documentation": {}
+    },
+    {
+        "label": "AnonymousUser",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "AbstractUser",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "UserManager",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_model",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_model",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "users.models",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "users.models",
+        "description": "users.models",
+        "detail": "users.models",
+        "documentation": {}
+    },
+    {
+        "label": "UserAdmin",
+        "importPath": "django.contrib.auth.admin",
+        "description": "django.contrib.auth.admin",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.admin",
+        "documentation": {}
+    },
+    {
+        "label": "AnonRateThrottle",
+        "importPath": "rest_framework.throttling",
+        "description": "rest_framework.throttling",
+        "isExtraImport": true,
+        "detail": "rest_framework.throttling",
+        "documentation": {}
+    },
+    {
+        "label": "RetrieveUpdateDestroyAPIView",
+        "importPath": "rest_framework.generics",
+        "description": "rest_framework.generics",
+        "isExtraImport": true,
+        "detail": "rest_framework.generics",
+        "documentation": {}
+    },
+    {
+        "label": "method_decorator",
+        "importPath": "django.utils.decorators",
+        "description": "django.utils.decorators",
+        "isExtraImport": true,
+        "detail": "django.utils.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "swagger_auto_schema",
+        "importPath": "drf_yasg.utils",
+        "description": "drf_yasg.utils",
+        "isExtraImport": true,
+        "detail": "drf_yasg.utils",
+        "documentation": {}
+    },
+    {
+        "label": "send_mail",
+        "importPath": "django.core.mail",
+        "description": "django.core.mail",
+        "isExtraImport": true,
+        "detail": "django.core.mail",
+        "documentation": {}
+    },
+    {
+        "label": "urlsafe_base64_encode",
+        "importPath": "django.utils.http",
+        "description": "django.utils.http",
+        "isExtraImport": true,
+        "detail": "django.utils.http",
+        "documentation": {}
+    },
+    {
+        "label": "urlsafe_base64_decode",
+        "importPath": "django.utils.http",
+        "description": "django.utils.http",
+        "isExtraImport": true,
+        "detail": "django.utils.http",
+        "documentation": {}
+    },
+    {
+        "label": "force_bytes",
+        "importPath": "django.utils.encoding",
+        "description": "django.utils.encoding",
+        "isExtraImport": true,
+        "detail": "django.utils.encoding",
+        "documentation": {}
+    },
+    {
+        "label": "force_str",
+        "importPath": "django.utils.encoding",
+        "description": "django.utils.encoding",
+        "isExtraImport": true,
+        "detail": "django.utils.encoding",
+        "documentation": {}
+    },
+    {
+        "label": "default_token_generator",
+        "importPath": "django.contrib.auth.tokens",
+        "description": "django.contrib.auth.tokens",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.tokens",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_site",
+        "importPath": "django.contrib.sites.shortcuts",
+        "description": "django.contrib.sites.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.contrib.sites.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render_to_string",
+        "importPath": "django.template.loader",
+        "description": "django.template.loader",
+        "isExtraImport": true,
+        "detail": "django.template.loader",
+        "documentation": {}
+    },
+    {
+        "label": "BlacklistedToken",
+        "importPath": "rest_framework_simplejwt.token_blacklist.models",
+        "description": "rest_framework_simplejwt.token_blacklist.models",
+        "isExtraImport": true,
+        "detail": "rest_framework_simplejwt.token_blacklist.models",
+        "documentation": {}
+    },
+    {
+        "label": "OutstandingToken",
+        "importPath": "rest_framework_simplejwt.token_blacklist.models",
+        "description": "rest_framework_simplejwt.token_blacklist.models",
+        "isExtraImport": true,
+        "detail": "rest_framework_simplejwt.token_blacklist.models",
+        "documentation": {}
+    },
+    {
+        "label": "RefreshToken",
+        "importPath": "rest_framework_simplejwt.tokens",
+        "description": "rest_framework_simplejwt.tokens",
+        "isExtraImport": true,
+        "detail": "rest_framework_simplejwt.tokens",
+        "documentation": {}
+    },
+    {
+        "label": "validate_password",
+        "importPath": "django.contrib.auth.password_validation",
+        "description": "django.contrib.auth.password_validation",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.password_validation",
+        "documentation": {}
+    },
+    {
+        "label": "EmailValidator",
+        "importPath": "django.core.validators",
+        "description": "django.core.validators",
+        "isExtraImport": true,
+        "detail": "django.core.validators",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "foods.foods.asgi",
+        "description": "foods.foods.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "foods.foods.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "foods.foods.settings",
+        "description": "foods.foods.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = config('DJANGO_SECRET_KEY')\n# SECURITY WARNING: don't run with debug turned on in production!\n# DEBUG = True\nDEBUG = config('DEBUG', default=True, cast=bool)\n# ALLOWED_HOSTS = []\nALLOWED_HOSTS = config('ALLOWED_HOSTS', default='127.0.0.1,localhost').split(',')",
+        "detail": "foods.foods.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "foods.foods.settings",
+        "description": "foods.foods.settings",
+        "peekOfCode": "SECRET_KEY = config('DJANGO_SECRET_KEY')\n# SECURITY WARNING: don't run with debug turned on in production!\n# DEBUG = True\nDEBUG = config('DEBUG', default=True, cast=bool)\n# ALLOWED_HOSTS = []\nALLOWED_HOSTS = config('ALLOWED_HOSTS', default='127.0.0.1,localhost').split(',')\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',",
+        "detail": "foods.foods.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "foods.foods.settings",
+        "description": "foods.foods.settings",
+        "peekOfCode": "DEBUG = config('DEBUG', default=True, cast=bool)\n# ALLOWED_HOSTS = []\nALLOWED_HOSTS = config('ALLOWED_HOSTS', default='127.0.0.1,localhost').split(',')\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',",
+        "detail": "foods.foods.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "foods.foods.settings",
+        "description": "foods.foods.settings",
+        "peekOfCode": "ALLOWED_HOSTS = config('ALLOWED_HOSTS', default='127.0.0.1,localhost').split(',')\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'django.contrib.sites',",
+        "detail": "foods.foods.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "foods.foods.settings",
+        "description": "foods.foods.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'django.contrib.sites',\n    'rest_framework',\n    'rest_framework_simplejwt.token_blacklist',",
+        "detail": "foods.foods.settings",
+        "documentation": {}
+    },
+    {
+        "label": "REST_FRAMEWORK",
+        "kind": 5,
+        "importPath": "foods.foods.settings",
+        "description": "foods.foods.settings",
+        "peekOfCode": "REST_FRAMEWORK = {\n    'DEFAULT_AUTHENTICATION_CLASSES': (\n        'rest_framework_simplejwt.authentication.JWTAuthentication',\n    ),\n    'DEFAULT_PERMISSION_CLASSES': (\n        'rest_framework.permissions.IsAuthenticated',\n    ),\n    'DEFAULT_THROTTLE_CLASSES': [\n        'rest_framework.throttling.AnonRateThrottle',\n        'rest_framework.throttling.UserRateThrottle'",
+        "detail": "foods.foods.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SIMPLE_JWT",
+        "kind": 5,
+        "importPath": "foods.foods.settings",
+        "description": "foods.foods.settings",
+        "peekOfCode": "SIMPLE_JWT = {\n    \"ACCESS_TOKEN_LIFETIME\": timedelta(minutes=5),\n    \"REFRESH_TOKEN_LIFETIME\": timedelta(days=1),\n    \"ROTATE_REFRESH_TOKENS\": True,\n    \"BLACKLIST_AFTER_ROTATION\": True,\n    \"UPDATE_LAST_LOGIN\": True,\n    \"ALGORITHM\": \"HS256\",\n    \"SIGNING_KEY\": config('JWT_SIGNING_KEY'),\n}\nAUTH_USER_MODEL = 'users.User'",
+        "detail": "foods.foods.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_USER_MODEL",
+        "kind": 5,
+        "importPath": "foods.foods.settings",
+        "description": "foods.foods.settings",
+        "peekOfCode": "AUTH_USER_MODEL = 'users.User'\nSITE_ID = 1\nMIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',",
+        "detail": "foods.foods.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SITE_ID",
+        "kind": 5,
+        "importPath": "foods.foods.settings",
+        "description": "foods.foods.settings",
+        "peekOfCode": "SITE_ID = 1\nMIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n    'corsheaders.middleware.CorsMiddleware',",
+        "detail": "foods.foods.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "foods.foods.settings",
+        "description": "foods.foods.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n    'corsheaders.middleware.CorsMiddleware',\n]",
+        "detail": "foods.foods.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "foods.foods.settings",
+        "description": "foods.foods.settings",
+        "peekOfCode": "ROOT_URLCONF = 'foods.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "foods.foods.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "foods.foods.settings",
+        "description": "foods.foods.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',\n                'django.contrib.messages.context_processors.messages',",
+        "detail": "foods.foods.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "foods.foods.settings",
+        "description": "foods.foods.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'foods.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/5.2/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation",
+        "detail": "foods.foods.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "foods.foods.settings",
+        "description": "foods.foods.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/5.2/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
+        "detail": "foods.foods.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "foods.foods.settings",
+        "description": "foods.foods.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "foods.foods.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "foods.foods.settings",
+        "description": "foods.foods.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "foods.foods.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "foods.foods.settings",
+        "description": "foods.foods.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'",
+        "detail": "foods.foods.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "foods.foods.settings",
+        "description": "foods.foods.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'",
+        "detail": "foods.foods.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "foods.foods.settings",
+        "description": "foods.foods.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = 587",
+        "detail": "foods.foods.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "foods.foods.settings",
+        "description": "foods.foods.settings",
+        "peekOfCode": "STATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = 587\nEMAIL_USE_TLS = True\nEMAIL_HOST_USER = config('EMAIL_HOST_USER')\nEMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')",
+        "detail": "foods.foods.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "foods.foods.settings",
+        "description": "foods.foods.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = 587\nEMAIL_USE_TLS = True\nEMAIL_HOST_USER = config('EMAIL_HOST_USER')\nEMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')\nDEFAULT_FROM_EMAIL = EMAIL_HOST_USER\n# Optional but good to have, as implied by your email templates\nEMAIL_VERIFICATION_TIMEOUT_HOURS = 24",
+        "detail": "foods.foods.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_BACKEND",
+        "kind": 5,
+        "importPath": "foods.foods.settings",
+        "description": "foods.foods.settings",
+        "peekOfCode": "EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = 587\nEMAIL_USE_TLS = True\nEMAIL_HOST_USER = config('EMAIL_HOST_USER')\nEMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')\nDEFAULT_FROM_EMAIL = EMAIL_HOST_USER\n# Optional but good to have, as implied by your email templates\nEMAIL_VERIFICATION_TIMEOUT_HOURS = 24\nPASSWORD_RESET_TIMEOUT_HOURS = 1",
+        "detail": "foods.foods.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_HOST",
+        "kind": 5,
+        "importPath": "foods.foods.settings",
+        "description": "foods.foods.settings",
+        "peekOfCode": "EMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = 587\nEMAIL_USE_TLS = True\nEMAIL_HOST_USER = config('EMAIL_HOST_USER')\nEMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')\nDEFAULT_FROM_EMAIL = EMAIL_HOST_USER\n# Optional but good to have, as implied by your email templates\nEMAIL_VERIFICATION_TIMEOUT_HOURS = 24\nPASSWORD_RESET_TIMEOUT_HOURS = 1\nSWAGGER_SETTINGS = {",
+        "detail": "foods.foods.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_PORT",
+        "kind": 5,
+        "importPath": "foods.foods.settings",
+        "description": "foods.foods.settings",
+        "peekOfCode": "EMAIL_PORT = 587\nEMAIL_USE_TLS = True\nEMAIL_HOST_USER = config('EMAIL_HOST_USER')\nEMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')\nDEFAULT_FROM_EMAIL = EMAIL_HOST_USER\n# Optional but good to have, as implied by your email templates\nEMAIL_VERIFICATION_TIMEOUT_HOURS = 24\nPASSWORD_RESET_TIMEOUT_HOURS = 1\nSWAGGER_SETTINGS = {\n    'SECURITY_DEFINITIONS': {",
+        "detail": "foods.foods.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_USE_TLS",
+        "kind": 5,
+        "importPath": "foods.foods.settings",
+        "description": "foods.foods.settings",
+        "peekOfCode": "EMAIL_USE_TLS = True\nEMAIL_HOST_USER = config('EMAIL_HOST_USER')\nEMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')\nDEFAULT_FROM_EMAIL = EMAIL_HOST_USER\n# Optional but good to have, as implied by your email templates\nEMAIL_VERIFICATION_TIMEOUT_HOURS = 24\nPASSWORD_RESET_TIMEOUT_HOURS = 1\nSWAGGER_SETTINGS = {\n    'SECURITY_DEFINITIONS': {\n        'Bearer': {",
+        "detail": "foods.foods.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_HOST_USER",
+        "kind": 5,
+        "importPath": "foods.foods.settings",
+        "description": "foods.foods.settings",
+        "peekOfCode": "EMAIL_HOST_USER = config('EMAIL_HOST_USER')\nEMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')\nDEFAULT_FROM_EMAIL = EMAIL_HOST_USER\n# Optional but good to have, as implied by your email templates\nEMAIL_VERIFICATION_TIMEOUT_HOURS = 24\nPASSWORD_RESET_TIMEOUT_HOURS = 1\nSWAGGER_SETTINGS = {\n    'SECURITY_DEFINITIONS': {\n        'Bearer': {\n            'type': 'apiKey',",
+        "detail": "foods.foods.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_HOST_PASSWORD",
+        "kind": 5,
+        "importPath": "foods.foods.settings",
+        "description": "foods.foods.settings",
+        "peekOfCode": "EMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')\nDEFAULT_FROM_EMAIL = EMAIL_HOST_USER\n# Optional but good to have, as implied by your email templates\nEMAIL_VERIFICATION_TIMEOUT_HOURS = 24\nPASSWORD_RESET_TIMEOUT_HOURS = 1\nSWAGGER_SETTINGS = {\n    'SECURITY_DEFINITIONS': {\n        'Bearer': {\n            'type': 'apiKey',\n            'name': 'Authorization',",
+        "detail": "foods.foods.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_FROM_EMAIL",
+        "kind": 5,
+        "importPath": "foods.foods.settings",
+        "description": "foods.foods.settings",
+        "peekOfCode": "DEFAULT_FROM_EMAIL = EMAIL_HOST_USER\n# Optional but good to have, as implied by your email templates\nEMAIL_VERIFICATION_TIMEOUT_HOURS = 24\nPASSWORD_RESET_TIMEOUT_HOURS = 1\nSWAGGER_SETTINGS = {\n    'SECURITY_DEFINITIONS': {\n        'Bearer': {\n            'type': 'apiKey',\n            'name': 'Authorization',\n            'in': 'header',",
+        "detail": "foods.foods.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_VERIFICATION_TIMEOUT_HOURS",
+        "kind": 5,
+        "importPath": "foods.foods.settings",
+        "description": "foods.foods.settings",
+        "peekOfCode": "EMAIL_VERIFICATION_TIMEOUT_HOURS = 24\nPASSWORD_RESET_TIMEOUT_HOURS = 1\nSWAGGER_SETTINGS = {\n    'SECURITY_DEFINITIONS': {\n        'Bearer': {\n            'type': 'apiKey',\n            'name': 'Authorization',\n            'in': 'header',\n            'description': \"JWT Authorization header. Example: 'Bearer your_token_here'\",\n        }",
+        "detail": "foods.foods.settings",
+        "documentation": {}
+    },
+    {
+        "label": "PASSWORD_RESET_TIMEOUT_HOURS",
+        "kind": 5,
+        "importPath": "foods.foods.settings",
+        "description": "foods.foods.settings",
+        "peekOfCode": "PASSWORD_RESET_TIMEOUT_HOURS = 1\nSWAGGER_SETTINGS = {\n    'SECURITY_DEFINITIONS': {\n        'Bearer': {\n            'type': 'apiKey',\n            'name': 'Authorization',\n            'in': 'header',\n            'description': \"JWT Authorization header. Example: 'Bearer your_token_here'\",\n        }\n    }",
+        "detail": "foods.foods.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SWAGGER_SETTINGS",
+        "kind": 5,
+        "importPath": "foods.foods.settings",
+        "description": "foods.foods.settings",
+        "peekOfCode": "SWAGGER_SETTINGS = {\n    'SECURITY_DEFINITIONS': {\n        'Bearer': {\n            'type': 'apiKey',\n            'name': 'Authorization',\n            'in': 'header',\n            'description': \"JWT Authorization header. Example: 'Bearer your_token_here'\",\n        }\n    }\n}",
+        "detail": "foods.foods.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CORS_ALLOW_ALL_ORIGINS",
+        "kind": 5,
+        "importPath": "foods.foods.settings",
+        "description": "foods.foods.settings",
+        "peekOfCode": "CORS_ALLOW_ALL_ORIGINS = config('CORS_ALLOW_ALL_ORIGINS', default=False, cast=bool)\nCORS_ALLOWED_ORIGINS = config('CORS_ALLOWED_ORIGINS', default='').split(',') if not CORS_ALLOW_ALL_ORIGINS else []\nMEDIA_URL = '/media/'\nMEDIA_ROOT = BASE_DIR / 'media'",
+        "detail": "foods.foods.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CORS_ALLOWED_ORIGINS",
+        "kind": 5,
+        "importPath": "foods.foods.settings",
+        "description": "foods.foods.settings",
+        "peekOfCode": "CORS_ALLOWED_ORIGINS = config('CORS_ALLOWED_ORIGINS', default='').split(',') if not CORS_ALLOW_ALL_ORIGINS else []\nMEDIA_URL = '/media/'\nMEDIA_ROOT = BASE_DIR / 'media'",
+        "detail": "foods.foods.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_URL",
+        "kind": 5,
+        "importPath": "foods.foods.settings",
+        "description": "foods.foods.settings",
+        "peekOfCode": "MEDIA_URL = '/media/'\nMEDIA_ROOT = BASE_DIR / 'media'",
+        "detail": "foods.foods.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_ROOT",
+        "kind": 5,
+        "importPath": "foods.foods.settings",
+        "description": "foods.foods.settings",
+        "peekOfCode": "MEDIA_ROOT = BASE_DIR / 'media'",
+        "detail": "foods.foods.settings",
+        "documentation": {}
+    },
+    {
+        "label": "schema_view",
+        "kind": 5,
+        "importPath": "foods.foods.urls",
+        "description": "foods.foods.urls",
+        "peekOfCode": "schema_view = get_schema_view(\n    openapi.Info(\n        title=\"Food API\",\n        default_version='v1',\n        description=\"API documentation for Foods\",\n        terms_of_service=\"https://www.example.com/terms/\",\n        contact=openapi.Contact(email=\"contact@example.com\"),\n        license=openapi.License(name=\"BSD License\"),\n    ),\n    public=True,",
+        "detail": "foods.foods.urls",
+        "documentation": {}
+    },
+    {
+        "label": "auth_urlpatterns",
+        "kind": 5,
+        "importPath": "foods.foods.urls",
+        "description": "foods.foods.urls",
+        "peekOfCode": "auth_urlpatterns = [\n    path('login/', TokenObtainPairView.as_view(), name='token_obtain_pair'),\n    path('login/refresh/', TokenRefreshView.as_view(), name='token_refresh'),\n    path('login/verify/', TokenVerifyView.as_view(), name='token_verify'),\n]\n# API URL patterns\napi_urlpatterns = [\n    path('auth/', include(auth_urlpatterns)),\n    path('users/', include('users.api_urls')),\n    path('foodtracker/', include('foodtracker.urls')),",
+        "detail": "foods.foods.urls",
+        "documentation": {}
+    },
+    {
+        "label": "api_urlpatterns",
+        "kind": 5,
+        "importPath": "foods.foods.urls",
+        "description": "foods.foods.urls",
+        "peekOfCode": "api_urlpatterns = [\n    path('auth/', include(auth_urlpatterns)),\n    path('users/', include('users.api_urls')),\n    path('foodtracker/', include('foodtracker.urls')),\n]\nurlpatterns = [\n    # Admin\n    path('admin/', admin.site.urls),\n    # API\n    path('api/', include(api_urlpatterns)),",
+        "detail": "foods.foods.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "foods.foods.urls",
+        "description": "foods.foods.urls",
+        "peekOfCode": "urlpatterns = [\n    # Admin\n    path('admin/', admin.site.urls),\n    # API\n    path('api/', include(api_urlpatterns)),\n    # Documentation\n    path('swagger/', schema_view.with_ui('swagger', cache_timeout=0), \n         name='schema-swagger-ui'),\n    path('redoc/', schema_view.with_ui('redoc', cache_timeout=0), \n         name='schema-redoc'),",
+        "detail": "foods.foods.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "foods.foods.wsgi",
+        "description": "foods.foods.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "foods.foods.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "foods.foodtracker.migrations.0001_initial",
+        "description": "foods.foodtracker.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='FoodItem',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
+        "detail": "foods.foodtracker.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "foods.foodtracker.migrations.0002_fooditem_fiber_fooditem_sugars_and_more",
+        "description": "foods.foodtracker.migrations.0002_fooditem_fiber_fooditem_sugars_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('foodtracker', '0001_initial'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='fooditem',\n            name='fiber',\n            field=models.DecimalField(blank=True, decimal_places=2, max_digits=8, null=True, verbose_name='Fiber (per 100g)'),\n        ),",
+        "detail": "foods.foodtracker.migrations.0002_fooditem_fiber_fooditem_sugars_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "foods.foodtracker.migrations.0003_rename_protien_fooditem_protein",
+        "description": "foods.foodtracker.migrations.0003_rename_protien_fooditem_protein",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('foodtracker', '0002_fooditem_fiber_fooditem_sugars_and_more'),\n    ]\n    operations = [\n        migrations.RenameField(\n            model_name='fooditem',\n            old_name='protien',\n            new_name='protein',\n        ),",
+        "detail": "foods.foodtracker.migrations.0003_rename_protien_fooditem_protein",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "foods.foodtracker.migrations.0004_rename_carps_fooditem_carbs",
+        "description": "foods.foodtracker.migrations.0004_rename_carps_fooditem_carbs",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('foodtracker', '0003_rename_protien_fooditem_protein'),\n    ]\n    operations = [\n        migrations.RenameField(\n            model_name='fooditem',\n            old_name='carps',\n            new_name='carbs',\n        ),",
+        "detail": "foods.foodtracker.migrations.0004_rename_carps_fooditem_carbs",
+        "documentation": {}
+    },
+    {
+        "label": "FoodItemAdmin",
+        "kind": 6,
+        "importPath": "foods.foodtracker.admin",
+        "description": "foods.foodtracker.admin",
+        "peekOfCode": "class FoodItemAdmin(admin.ModelAdmin):\n    list_display = ('name', 'calories', 'sugars', 'fiber', 'unit', 'external_api_id', 'created_by')\n    search_fields = ('name', 'external_api_id')\n    list_filter = ('unit',)\n    # Optionally, if you want to make it easier to add/edit created_by in admin\n    # raw_id_fields = ('created_by',)\n@admin.register(FoodLogEntry)\nclass FoodLogEntryAdmin(admin.ModelAdmin):\n    list_display = (\n        'user', 'food_name', 'quantity', 'quantity_unit', 'log_date',",
+        "detail": "foods.foodtracker.admin",
+        "documentation": {}
+    },
+    {
+        "label": "FoodLogEntryAdmin",
+        "kind": 6,
+        "importPath": "foods.foodtracker.admin",
+        "description": "foods.foodtracker.admin",
+        "peekOfCode": "class FoodLogEntryAdmin(admin.ModelAdmin):\n    list_display = (\n        'user', 'food_name', 'quantity', 'quantity_unit', 'log_date',\n        'calories_consumed', 'protein_consumed', 'carbs_consumed', 'fat_consumed',\n        'sugars_consumed', 'fiber_consumed', # <--- NEW FIELDS\n        'created_at'\n    )\n    list_filter = ('user', 'log_date', 'quantity_unit')\n    search_fields = ('user__email', 'user__name', 'food_name')\n    date_hierarchy = 'log_date' # Adds a date navigation bar",
+        "detail": "foods.foodtracker.admin",
+        "documentation": {}
+    },
+    {
+        "label": "FoodSearchApiView",
+        "kind": 6,
+        "importPath": "foods.foodtracker.api_views",
+        "description": "foods.foodtracker.api_views",
+        "peekOfCode": "class FoodSearchApiView(APIView):\n    permission_classes = [IsAuthenticated]\n    serializer_class = FoodSearchSerializer\n    def get(self, request, *args, **kwargs):\n        print(\"DEBUG: FoodSearchView GET method hit!\")\n        serializer = self.serializer_class(data=request.query_params)\n        serializer.is_valid(raise_exception=True)\n        query = serializer.validated_data['query']\n        search_results = search_food_on_open_food_facts(query)\n        return Response(search_results, status=status.HTTP_200_OK)",
+        "detail": "foods.foodtracker.api_views",
+        "documentation": {}
+    },
+    {
+        "label": "FoodLogEntryListCreateView",
+        "kind": 6,
+        "importPath": "foods.foodtracker.api_views",
+        "description": "foods.foodtracker.api_views",
+        "peekOfCode": "class FoodLogEntryListCreateView(generics.ListCreateAPIView):\n    serializer_class = FoodLogEntrySerializer\n    permission_classes = [IsAuthenticated]\n    def get_queryset(self):\n        if getattr(self, 'swagger_fake_view', False) or isinstance(self.request.user, AnonymousUser):\n            return FoodLogEntry.objects.none()\n        queryset = FoodLogEntry.objects.filter(user=self.request.user)\n        log_date_str = self.request.query_params.get('date')\n        if log_date_str:\n            try:",
+        "detail": "foods.foodtracker.api_views",
+        "documentation": {}
+    },
+    {
+        "label": "FoodLogEntryRetrieveUpdateDestroyView",
+        "kind": 6,
+        "importPath": "foods.foodtracker.api_views",
+        "description": "foods.foodtracker.api_views",
+        "peekOfCode": "class FoodLogEntryRetrieveUpdateDestroyView(generics.RetrieveUpdateDestroyAPIView):\n    serializer_class = FoodLogEntrySerializer\n    permission_classes = [IsAuthenticated]\n    queryset = FoodLogEntry.objects.all()\n    def get_queryset(self):\n        if getattr(self, 'swagger_fake_view', False) or isinstance(self.request.user, AnonymousUser):\n            return FoodLogEntry.objects.none()\n        return self.queryset.filter(user=self.request.user)\n    def perform_update(self, serializer):\n        instance = serializer.instance",
+        "detail": "foods.foodtracker.api_views",
+        "documentation": {}
+    },
+    {
+        "label": "DailySummaryView",
+        "kind": 6,
+        "importPath": "foods.foodtracker.api_views",
+        "description": "foods.foodtracker.api_views",
+        "peekOfCode": "class DailySummaryView(generics.RetrieveAPIView):\n    permission_classes = [IsAuthenticated]\n    serializer_class = FoodLogEntrySerializer # Dummy serializer, actual data is aggregated\n    def get(self, request, *args, **kwargs):\n        if getattr(self, 'swagger_fake_view', False) or isinstance(request.user, AnonymousUser):\n            return Response({\n                \"date\": timezone.now().strftime('%Y-%m-%d'),\n                \"total_calories\": 0.00,\n                \"total_protein\": 0.00,\n                \"total_carbs\": 0.00,",
+        "detail": "foods.foodtracker.api_views",
+        "documentation": {}
+    },
+    {
+        "label": "search_food_on_open_food_facts",
+        "kind": 2,
+        "importPath": "foods.foodtracker.api_views",
+        "description": "foods.foodtracker.api_views",
+        "peekOfCode": "def search_food_on_open_food_facts(query):\n    \"\"\"\n    Searches for food items on Open Food Facts API.\n    Returns a list of dictionaries with basic food info.\n    \"\"\"\n    params = {\n        'search_terms': query,\n        'json': 1,\n        'page_size': 20 # Limit results to 20 for brevity\n    }",
+        "detail": "foods.foodtracker.api_views",
+        "documentation": {}
+    },
+    {
+        "label": "get_food_details_from_open_food_facts",
+        "kind": 2,
+        "importPath": "foods.foodtracker.api_views",
+        "description": "foods.foodtracker.api_views",
+        "peekOfCode": "def get_food_details_from_open_food_facts(external_id):\n    \"\"\"\n    Fetches detailed nutritional information for a specific product from Open Food Facts.\n    \"\"\"\n    url = f\"{OPEN_FOOD_FACTS_PRODUCT_URL}{external_id}.json\"\n    try:\n        response = requests.get(url, timeout=10)\n        response.raise_for_status()\n        data = response.json()\n        if 'product' in data:",
+        "detail": "foods.foodtracker.api_views",
+        "documentation": {}
+    },
+    {
+        "label": "OPEN_FOOD_FACTS_BASE_URL",
+        "kind": 5,
+        "importPath": "foods.foodtracker.api_views",
+        "description": "foods.foodtracker.api_views",
+        "peekOfCode": "OPEN_FOOD_FACTS_BASE_URL = \"https://world.openfoodfacts.org/cgi/search.pl\"\nOPEN_FOOD_FACTS_PRODUCT_URL = \"https://world.openfoodfacts.org/api/v0/product/\"\ndef search_food_on_open_food_facts(query):\n    \"\"\"\n    Searches for food items on Open Food Facts API.\n    Returns a list of dictionaries with basic food info.\n    \"\"\"\n    params = {\n        'search_terms': query,\n        'json': 1,",
+        "detail": "foods.foodtracker.api_views",
+        "documentation": {}
+    },
+    {
+        "label": "OPEN_FOOD_FACTS_PRODUCT_URL",
+        "kind": 5,
+        "importPath": "foods.foodtracker.api_views",
+        "description": "foods.foodtracker.api_views",
+        "peekOfCode": "OPEN_FOOD_FACTS_PRODUCT_URL = \"https://world.openfoodfacts.org/api/v0/product/\"\ndef search_food_on_open_food_facts(query):\n    \"\"\"\n    Searches for food items on Open Food Facts API.\n    Returns a list of dictionaries with basic food info.\n    \"\"\"\n    params = {\n        'search_terms': query,\n        'json': 1,\n        'page_size': 20 # Limit results to 20 for brevity",
+        "detail": "foods.foodtracker.api_views",
+        "documentation": {}
+    },
+    {
+        "label": "FoodtrackerConfig",
+        "kind": 6,
+        "importPath": "foods.foodtracker.apps",
+        "description": "foods.foodtracker.apps",
+        "peekOfCode": "class FoodtrackerConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'foodtracker'",
+        "detail": "foods.foodtracker.apps",
+        "documentation": {}
+    },
+    {
+        "label": "FoodItem",
+        "kind": 6,
+        "importPath": "foods.foodtracker.models",
+        "description": "foods.foodtracker.models",
+        "peekOfCode": "class FoodItem(models.Model):\n    name = models.CharField(_(\"Food Name\"), max_length=255, unique=True)\n    calories = models.DecimalField(_(\"Calories (per 100g)\"), max_digits=8, decimal_places=2, null=True, blank=True)\n    protein = models.DecimalField(_(\"Protien (per 100g)\"), max_digits=8, decimal_places=2, null=True, blank=True)\n    carbs = models.DecimalField(_(\"Carps (per 100g)\"), max_digits=8, decimal_places=2, null=True, blank=True)\n    fat = models.DecimalField(_(\"Fat (per 100g)\"), max_digits=8, decimal_places=2, null=True, blank=True)\n    sugars = models.DecimalField(_(\"Sugars (per 100g)\"), max_digits=8, decimal_places=2, null=True, blank=True)\n    fiber = models.DecimalField(_(\"Fiber (per 100g)\"), max_digits=8, decimal_places=2, null=True, blank=True)\n    unit = models.CharField(_(\"Unit of Measurement\"), max_length=50, default=\"g\")\n    external_api_id = models.CharField(max_length=255, null=True, blank=True, help_text=_(\"ID from external food database (e.g., Open Food Facts)\"))",
+        "detail": "foods.foodtracker.models",
+        "documentation": {}
+    },
+    {
+        "label": "FoodLogEntry",
+        "kind": 6,
+        "importPath": "foods.foodtracker.models",
+        "description": "foods.foodtracker.models",
+        "peekOfCode": "class FoodLogEntry(models.Model):\n    user = models.ForeignKey(\n        settings.AUTH_USER_MODEL,\n        on_delete=models.CASCADE,\n        related_name='food_logs',\n        verbose_name=_(\"User\")\n    )\n    food_item = models.ForeignKey(\n        FoodItem,\n        on_delete=models.SET_NULL,",
+        "detail": "foods.foodtracker.models",
+        "documentation": {}
+    },
+    {
+        "label": "FoodItemSerializer",
+        "kind": 6,
+        "importPath": "foods.foodtracker.serializer",
+        "description": "foods.foodtracker.serializer",
+        "peekOfCode": "class FoodItemSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = FoodItem\n        fields = ['id', 'name', 'calories', 'protein', 'carbs', 'fat', 'sugars', 'fiber',\n            'unit', 'external_api_id', 'created_by', 'created_at', 'updated_at'\n        ]\n        read_only_fields = ['created_at', 'updated_at', 'created_by']\nclass FoodLogEntrySerializer(serializers.ModelSerializer):\n    user_name = serializers.CharField(source='user.name', read_only=True)\n    food_item_name = serializers.CharField(source='food_item.name', read_only=True)",
+        "detail": "foods.foodtracker.serializer",
+        "documentation": {}
+    },
+    {
+        "label": "FoodLogEntrySerializer",
+        "kind": 6,
+        "importPath": "foods.foodtracker.serializer",
+        "description": "foods.foodtracker.serializer",
+        "peekOfCode": "class FoodLogEntrySerializer(serializers.ModelSerializer):\n    user_name = serializers.CharField(source='user.name', read_only=True)\n    food_item_name = serializers.CharField(source='food_item.name', read_only=True)\n    class Meta:\n        model = FoodLogEntry\n        fields = [\n            'id', 'user', 'user_name', 'food_item', 'food_item_name',\n            'food_name', 'quantity', 'quantity_unit',\n            'calories_consumed', 'protein_consumed', 'carbs_consumed', 'fat_consumed', 'sugars_consumed', 'fiber_consumed',\n            'log_date', 'created_at', 'updated_at'",
+        "detail": "foods.foodtracker.serializer",
+        "documentation": {}
+    },
+    {
+        "label": "FoodSearchSerializer",
+        "kind": 6,
+        "importPath": "foods.foodtracker.serializer",
+        "description": "foods.foodtracker.serializer",
+        "peekOfCode": "class FoodSearchSerializer(serializers.Serializer):\n    query = serializers.CharField(\n        max_length=255,\n        required=True,\n        help_text=_(\"The food item to search for (e.g., 'apple', 'chicken breast')\")\n    )",
+        "detail": "foods.foodtracker.serializer",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 5,
+        "importPath": "foods.foodtracker.serializer",
+        "description": "foods.foodtracker.serializer",
+        "peekOfCode": "User = get_user_model()\nclass FoodItemSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = FoodItem\n        fields = ['id', 'name', 'calories', 'protein', 'carbs', 'fat', 'sugars', 'fiber',\n            'unit', 'external_api_id', 'created_by', 'created_at', 'updated_at'\n        ]\n        read_only_fields = ['created_at', 'updated_at', 'created_by']\nclass FoodLogEntrySerializer(serializers.ModelSerializer):\n    user_name = serializers.CharField(source='user.name', read_only=True)",
+        "detail": "foods.foodtracker.serializer",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "foods.foodtracker.urls",
+        "description": "foods.foodtracker.urls",
+        "peekOfCode": "urlpatterns = [\n    path('search/', FoodSearchApiView.as_view(), name='food-search'),\n    path('logs/', FoodLogEntryListCreateView.as_view(), name='foodlog-list-create'),\n    path('logs/<int:pk>/', FoodLogEntryRetrieveUpdateDestroyView.as_view(), name='foodlog-retrieve-update-destroy'),\n    path('summary/', DailySummaryView.as_view(), name='daily-summary'),\n]",
+        "detail": "foods.foodtracker.urls",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "foods.users.migrations.0001_initial",
+        "description": "foods.users.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        ('auth', '0012_alter_user_first_name_max_length'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='User',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
+        "detail": "foods.users.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "UserAdmin",
+        "kind": 6,
+        "importPath": "foods.users.admin",
+        "description": "foods.users.admin",
+        "peekOfCode": "class UserAdmin(BaseUserAdmin):\n    model = User\n    list_display = ('email', 'name', 'is_staff', 'is_superuser')\n    ordering = ('name', 'email',)\n    search_field = ('name', 'email',)\n    fieldsets = (\n        (None, {'fields': ('email', 'password')}),\n        ('Personal Info', {'fields': ('name',)}),\n        ('Permissions', {'fields': ('is_active', 'is_staff', 'is_superuser', 'groups', 'user_permissions')}),\n        ('Important dates', {'fields': ('last_login',)}),",
+        "detail": "foods.users.admin",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "foods.users.api_urls",
+        "description": "foods.users.api_urls",
+        "peekOfCode": "urlpatterns = [\n    path('register/', RegisterView.as_view(), name='register'),\n    path('resend-verification/', ResendVerificationEmailView.as_view(), name='resend-verification'),\n    path('profile/', UserProfileView.as_view(), name='user-profile'),\n    path('profile/change-password/', ChangePasswordView.as_view(), name='change-password'),\n    path('password-reset/', PasswordResetRequestView.as_view(), name='password_reset'),\n    path('password-reset-confirm/<uidb64>/<token>/', PasswordResetConfirmView.as_view(), name='password_reset_confirm'),\n    path('verify-email/<uidb64>/<token>/', EmailVerView.as_view(), name='verify-email'),\n    path('logout/', LogoutView.as_view(), name='logout'),\n]",
+        "detail": "foods.users.api_urls",
+        "documentation": {}
+    },
+    {
+        "label": "UserProfileView",
+        "kind": 6,
+        "importPath": "foods.users.api_views",
+        "description": "foods.users.api_views",
+        "peekOfCode": "class UserProfileView(RetrieveUpdateDestroyAPIView):\n    serializer_class = UserSerializer\n    permission_classes = [IsAuthenticated]\n    def get_object(self):\n        return self.request.user\n@method_decorator(name='post', decorator=swagger_auto_schema(\n    tags=['Register'],\n    operation_summary=\"Register new user\",\n    operation_description=\"Creates a new user account and sends a verification email.\"\n))",
+        "detail": "foods.users.api_views",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterView",
+        "kind": 6,
+        "importPath": "foods.users.api_views",
+        "description": "foods.users.api_views",
+        "peekOfCode": "class RegisterView(generics.CreateAPIView):\n    serializer_class = RegisterSerializer\n    permission_classes = [AllowAny]\n    throttle_classes = [AnonRateThrottle]\n    def create(self, request, *args, **kwargs):\n        serializer = self.get_serializer(data=request.data)\n        serializer.is_valid(raise_exception=True)\n        user = serializer.save()\n        user.is_active = False\n        user.save()",
+        "detail": "foods.users.api_views",
+        "documentation": {}
+    },
+    {
+        "label": "PasswordResetRequestView",
+        "kind": 6,
+        "importPath": "foods.users.api_views",
+        "description": "foods.users.api_views",
+        "peekOfCode": "class PasswordResetRequestView(generics.GenericAPIView):\n    serializer_class = PasswordResetRequestSerializer\n    permission_classes = [permissions.AllowAny]\n    throttle_classes = [AnonRateThrottle]\n    def post(self, request, *args, **kwargs):\n        serializer = self.get_serializer(data=request.data)\n        serializer.is_valid(raise_exception=True)\n        user = User.objects.get(email=serializer.validated_data['email'])\n        uid = urlsafe_base64_encode(force_bytes(user.pk))\n        token = default_token_generator.make_token(user)",
+        "detail": "foods.users.api_views",
+        "documentation": {}
+    },
+    {
+        "label": "PasswordResetConfirmView",
+        "kind": 6,
+        "importPath": "foods.users.api_views",
+        "description": "foods.users.api_views",
+        "peekOfCode": "class PasswordResetConfirmView(generics.GenericAPIView):\n    serializer_class = PasswordResetConfirmSerializer\n    permission_classes = [permissions.AllowAny]\n    def post(self, request, uidb64, token, *args, **kwargs):\n        serializer = self.get_serializer(data=request.data)\n        serializer.is_valid(raise_exception=True)\n        try:\n            uid = force_str(urlsafe_base64_decode(uidb64))\n            user = User.objects.get(pk=uid)\n        except (TypeError, ValueError, OverflowError, User.DoesNotExist):",
+        "detail": "foods.users.api_views",
+        "documentation": {}
+    },
+    {
+        "label": "EmailVerView",
+        "kind": 6,
+        "importPath": "foods.users.api_views",
+        "description": "foods.users.api_views",
+        "peekOfCode": "class EmailVerView(APIView):\n    permission_classes = [permissions.AllowAny]\n    def get(self, request, uidb64, token):\n        try:\n            uid = force_str(urlsafe_base64_decode(uidb64))\n            user = User.objects.get(pk=uid)\n        except (TypeError, ValueError, OverflowError, User.DoesNotExist):\n            return Response(\n                {\"error\": _(\"Invalid verification link.\")}, \n                status=status.HTTP_400_BAD_REQUEST",
+        "detail": "foods.users.api_views",
+        "documentation": {}
+    },
+    {
+        "label": "ResendVerificationEmailView",
+        "kind": 6,
+        "importPath": "foods.users.api_views",
+        "description": "foods.users.api_views",
+        "peekOfCode": "class ResendVerificationEmailView(generics.GenericAPIView):\n    permission_classes = [permissions.AllowAny]\n    throttle_classes = [AnonRateThrottle]\n    serializer_class = ResendVerificationEmailSerializer\n    def post(self, request, *args, **kwargs):\n        serializer = self.get_serializer(data=request.data) # <--- USE THE SERIALIZER\n        serializer.is_valid(raise_exception=True)\n        email = serializer.validated_data['email'] # <--- GET EMAIL FROM VALIDATED DATA\n        try:\n            user = User.objects.get(email=email)",
+        "detail": "foods.users.api_views",
+        "documentation": {}
+    },
+    {
+        "label": "ChangePasswordView",
+        "kind": 6,
+        "importPath": "foods.users.api_views",
+        "description": "foods.users.api_views",
+        "peekOfCode": "class ChangePasswordView(generics.UpdateAPIView):\n    serializer_class = ChangePasswordSerializer\n    permission_classes = [permissions.IsAuthenticated]\n    def get_object(self):\n        return self.request.user\n    def update(self, request, *args, **kwargs):\n        user = self.get_object()\n        serializer = self.get_serializer(data=request.data, context={'request': request})\n        serializer.is_valid(raise_exception=True)\n        user.set_password(serializer.validated_data['new_password'])",
+        "detail": "foods.users.api_views",
+        "documentation": {}
+    },
+    {
+        "label": "LogoutView",
+        "kind": 6,
+        "importPath": "foods.users.api_views",
+        "description": "foods.users.api_views",
+        "peekOfCode": "class LogoutView(generics.GenericAPIView):\n    permission_classes = [permissions.IsAuthenticated]\n    serializer_class = LogoutSerializer\n    def post(self, request, *args, **kwargs):\n        serializer = self.get_serializer(data=request.data)\n        serializer.is_valid(raise_exception=True)\n        try:\n            refresh_token = serializer.validated_data['refresh']\n            token = RefreshToken(refresh_token)\n            token.blacklist()",
+        "detail": "foods.users.api_views",
+        "documentation": {}
+    },
+    {
+        "label": "UsersConfig",
+        "kind": 6,
+        "importPath": "foods.users.apps",
+        "description": "foods.users.apps",
+        "peekOfCode": "class UsersConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'users'",
+        "detail": "foods.users.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppUserManager",
+        "kind": 6,
+        "importPath": "foods.users.models",
+        "description": "foods.users.models",
+        "peekOfCode": "class AppUserManager(UserManager):\n    def _create_user(self, email, password, **extra_fields):\n        if not email:\n            raise ValueError(\"Please Enter An Email\")\n        email = self.normalize_email(email)\n        user = self.model(email=email, **extra_fields)\n        user.set_password(password)\n        user.save(using=self._db)\n        return user\n    def create_user(self, email, password, **extra_fields):",
+        "detail": "foods.users.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "foods.users.models",
+        "description": "foods.users.models",
+        "peekOfCode": "class User(AbstractUser):\n    username = None\n    email = models.EmailField(_(\"email adress\"), unique=True)\n    name = models.CharField(max_length=30)\n    avatar = models.ImageField(upload_to='avatars/', null=True, blank=True)\n    objects = AppUserManager()\n    USERNAME_FIELD = \"email\"\n    REQUIRED_FIELDS = [\"name\"]\n    def __str__(self):\n        return self.name",
+        "detail": "foods.users.models",
+        "documentation": {}
+    },
+    {
+        "label": "UserSerializer",
+        "kind": 6,
+        "importPath": "foods.users.serializer",
+        "description": "foods.users.serializer",
+        "peekOfCode": "class UserSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = User\n        fields = ['id', 'email', 'name', 'avatar', 'date_joined', 'last_login']\n        read_only_fields = ['email', 'date_joined', 'last_login']\nclass RegisterSerializer(serializers.ModelSerializer):\n    email = serializers.EmailField(\n        validators=[EmailValidator(message=_(\"Enter a valid email address.\"))]\n    )\n    name = serializers.CharField(",
+        "detail": "foods.users.serializer",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterSerializer",
+        "kind": 6,
+        "importPath": "foods.users.serializer",
+        "description": "foods.users.serializer",
+        "peekOfCode": "class RegisterSerializer(serializers.ModelSerializer):\n    email = serializers.EmailField(\n        validators=[EmailValidator(message=_(\"Enter a valid email address.\"))]\n    )\n    name = serializers.CharField(\n        required=True,\n        min_length=2,\n        max_length=30,\n        error_messages={\n            'required': _('Please provide your name.'),",
+        "detail": "foods.users.serializer",
+        "documentation": {}
+    },
+    {
+        "label": "PasswordResetRequestSerializer",
+        "kind": 6,
+        "importPath": "foods.users.serializer",
+        "description": "foods.users.serializer",
+        "peekOfCode": "class PasswordResetRequestSerializer(serializers.Serializer):\n    email = serializers.EmailField(\n        validators=[EmailValidator(message=_(\"Enter a valid email address.\"))]\n    )\n    def validate_email(self, value):\n        if not User.objects.filter(email=value).exists():\n            raise serializers.ValidationError(_(\"No user is associated with this email address.\"))\n        return value\nclass PasswordResetConfirmSerializer(serializers.Serializer):\n    new_password = serializers.CharField(",
+        "detail": "foods.users.serializer",
+        "documentation": {}
+    },
+    {
+        "label": "PasswordResetConfirmSerializer",
+        "kind": 6,
+        "importPath": "foods.users.serializer",
+        "description": "foods.users.serializer",
+        "peekOfCode": "class PasswordResetConfirmSerializer(serializers.Serializer):\n    new_password = serializers.CharField(\n        write_only=True, \n        required=True, \n        validators=[validate_password],\n        min_length=8,\n        error_messages={\n            'min_length': _('Password must be at least 8 characters long.')\n        }\n    )",
+        "detail": "foods.users.serializer",
+        "documentation": {}
+    },
+    {
+        "label": "EmailVerSerializer",
+        "kind": 6,
+        "importPath": "foods.users.serializer",
+        "description": "foods.users.serializer",
+        "peekOfCode": "class EmailVerSerializer(serializers.Serializer):\n    uid = serializers.CharField()\n    token = serializers.CharField()\nclass ChangePasswordSerializer(serializers.Serializer):\n    old_password = serializers.CharField(required=True)\n    new_password = serializers.CharField(\n        required=True, \n        validators=[validate_password],\n        min_length=8,\n        error_messages={",
+        "detail": "foods.users.serializer",
+        "documentation": {}
+    },
+    {
+        "label": "ChangePasswordSerializer",
+        "kind": 6,
+        "importPath": "foods.users.serializer",
+        "description": "foods.users.serializer",
+        "peekOfCode": "class ChangePasswordSerializer(serializers.Serializer):\n    old_password = serializers.CharField(required=True)\n    new_password = serializers.CharField(\n        required=True, \n        validators=[validate_password],\n        min_length=8,\n        error_messages={\n            'min_length': _('Password must be at least 8 characters long.')\n        }\n    )",
+        "detail": "foods.users.serializer",
+        "documentation": {}
+    },
+    {
+        "label": "LogoutSerializer",
+        "kind": 6,
+        "importPath": "foods.users.serializer",
+        "description": "foods.users.serializer",
+        "peekOfCode": "class LogoutSerializer(serializers.Serializer):\n    refresh = serializers.CharField()\n    access = serializers.CharField(required=False)\nclass ResendVerificationEmailSerializer(serializers.Serializer):\n    email = serializers.EmailField(\n        validators=[EmailValidator(message=_(\"Enter a valid email address.\"))]\n    )\n    def validate_email(self, value):\n        if not User.objects.filter(email=value).exists():\n            raise serializers.ValidationError(_(\"No user with this email exists.\"))",
+        "detail": "foods.users.serializer",
+        "documentation": {}
+    },
+    {
+        "label": "ResendVerificationEmailSerializer",
+        "kind": 6,
+        "importPath": "foods.users.serializer",
+        "description": "foods.users.serializer",
+        "peekOfCode": "class ResendVerificationEmailSerializer(serializers.Serializer):\n    email = serializers.EmailField(\n        validators=[EmailValidator(message=_(\"Enter a valid email address.\"))]\n    )\n    def validate_email(self, value):\n        if not User.objects.filter(email=value).exists():\n            raise serializers.ValidationError(_(\"No user with this email exists.\"))\n        return value",
+        "detail": "foods.users.serializer",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 5,
+        "importPath": "foods.users.serializer",
+        "description": "foods.users.serializer",
+        "peekOfCode": "User = get_user_model()\nclass UserSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = User\n        fields = ['id', 'email', 'name', 'avatar', 'date_joined', 'last_login']\n        read_only_fields = ['email', 'date_joined', 'last_login']\nclass RegisterSerializer(serializers.ModelSerializer):\n    email = serializers.EmailField(\n        validators=[EmailValidator(message=_(\"Enter a valid email address.\"))]\n    )",
+        "detail": "foods.users.serializer",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "foods.manage",
+        "description": "foods.manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'foods.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "foods.manage",
+        "documentation": {}
+    }
+]
