@@ -21,6 +21,7 @@ The API provides comprehensive functionalities across two main applications:
   - Confirm reset with token
 - **User Logout**: Invalidate refresh tokens.
 - **Account Deletion**: Users can delete their own accounts.
+- **Cached Food Search Results**: Recently searched food items are cached to reduce external API calls and improve performance.
 
 ### 🍎 FoodTracker Application
 
@@ -41,7 +42,7 @@ The API provides comprehensive functionalities across two main applications:
 - **External API**: Open Food Facts  
 - **CORS**: django-cors-headers  
 - **Database**: SQLite (dev), PostgreSQL (prod)  
-
+- **Caching**: Django caching framework (e.g., Redis backend)
 ---
 
 ## ⚙️ Setup & Installation
