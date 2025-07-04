@@ -549,6 +549,38 @@
         "documentation": {}
     },
     {
+        "label": "cache",
+        "importPath": "django.core.cache",
+        "description": "django.core.cache",
+        "isExtraImport": true,
+        "detail": "django.core.cache",
+        "documentation": {}
+    },
+    {
+        "label": "method_decorator",
+        "importPath": "django.utils.decorators",
+        "description": "django.utils.decorators",
+        "isExtraImport": true,
+        "detail": "django.utils.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "method_decorator",
+        "importPath": "django.utils.decorators",
+        "description": "django.utils.decorators",
+        "isExtraImport": true,
+        "detail": "django.utils.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "cache_page",
+        "importPath": "django.views.decorators.cache",
+        "description": "django.views.decorators.cache",
+        "isExtraImport": true,
+        "detail": "django.views.decorators.cache",
+        "documentation": {}
+    },
+    {
         "label": "AppConfig",
         "importPath": "django.apps",
         "description": "django.apps",
@@ -643,14 +675,6 @@
         "description": "rest_framework.generics",
         "isExtraImport": true,
         "detail": "rest_framework.generics",
-        "documentation": {}
-    },
-    {
-        "label": "method_decorator",
-        "importPath": "django.utils.decorators",
-        "description": "django.utils.decorators",
-        "isExtraImport": true,
-        "detail": "django.utils.decorators",
         "documentation": {}
     },
     {
@@ -815,7 +839,7 @@
         "kind": 5,
         "importPath": "foods.foods.settings",
         "description": "foods.foods.settings",
-        "peekOfCode": "ALLOWED_HOSTS = config('ALLOWED_HOSTS', default='127.0.0.1,localhost').split(',')\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'django.contrib.sites',",
+        "peekOfCode": "ALLOWED_HOSTS = config('ALLOWED_HOSTS', default='127.0.0.1,localhost').split(',')\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'django.core.cache',",
         "detail": "foods.foods.settings",
         "documentation": {}
     },
@@ -824,7 +848,7 @@
         "kind": 5,
         "importPath": "foods.foods.settings",
         "description": "foods.foods.settings",
-        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'django.contrib.sites',\n    'rest_framework',\n    'rest_framework_simplejwt.token_blacklist',",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'django.core.cache',\n    'django.contrib.sites',\n    'rest_framework',",
         "detail": "foods.foods.settings",
         "documentation": {}
     },
@@ -1067,7 +1091,7 @@
         "kind": 5,
         "importPath": "foods.foods.settings",
         "description": "foods.foods.settings",
-        "peekOfCode": "CORS_ALLOW_ALL_ORIGINS = config('CORS_ALLOW_ALL_ORIGINS', default=False, cast=bool)\nCORS_ALLOWED_ORIGINS = config('CORS_ALLOWED_ORIGINS', default='').split(',') if not CORS_ALLOW_ALL_ORIGINS else []\nMEDIA_URL = '/media/'\nMEDIA_ROOT = BASE_DIR / 'media'",
+        "peekOfCode": "CORS_ALLOW_ALL_ORIGINS = config('CORS_ALLOW_ALL_ORIGINS', default=False, cast=bool)\nCORS_ALLOWED_ORIGINS = config('CORS_ALLOWED_ORIGINS', default='').split(',') if not CORS_ALLOW_ALL_ORIGINS else []\nMEDIA_URL = '/media/'\nMEDIA_ROOT = BASE_DIR / 'media'\nCACHES = {\n    'default': {\n        'BACKEND': 'django.core.cache.backends.locmem.LocMemCache',\n        'LOCATION': 'unique-calorie-tracker-cache',\n        'TIMEOUT': 300,  # 5 minutes cache\n    }",
         "detail": "foods.foods.settings",
         "documentation": {}
     },
@@ -1076,7 +1100,7 @@
         "kind": 5,
         "importPath": "foods.foods.settings",
         "description": "foods.foods.settings",
-        "peekOfCode": "CORS_ALLOWED_ORIGINS = config('CORS_ALLOWED_ORIGINS', default='').split(',') if not CORS_ALLOW_ALL_ORIGINS else []\nMEDIA_URL = '/media/'\nMEDIA_ROOT = BASE_DIR / 'media'",
+        "peekOfCode": "CORS_ALLOWED_ORIGINS = config('CORS_ALLOWED_ORIGINS', default='').split(',') if not CORS_ALLOW_ALL_ORIGINS else []\nMEDIA_URL = '/media/'\nMEDIA_ROOT = BASE_DIR / 'media'\nCACHES = {\n    'default': {\n        'BACKEND': 'django.core.cache.backends.locmem.LocMemCache',\n        'LOCATION': 'unique-calorie-tracker-cache',\n        'TIMEOUT': 300,  # 5 minutes cache\n    }\n}",
         "detail": "foods.foods.settings",
         "documentation": {}
     },
@@ -1085,7 +1109,7 @@
         "kind": 5,
         "importPath": "foods.foods.settings",
         "description": "foods.foods.settings",
-        "peekOfCode": "MEDIA_URL = '/media/'\nMEDIA_ROOT = BASE_DIR / 'media'",
+        "peekOfCode": "MEDIA_URL = '/media/'\nMEDIA_ROOT = BASE_DIR / 'media'\nCACHES = {\n    'default': {\n        'BACKEND': 'django.core.cache.backends.locmem.LocMemCache',\n        'LOCATION': 'unique-calorie-tracker-cache',\n        'TIMEOUT': 300,  # 5 minutes cache\n    }\n}",
         "detail": "foods.foods.settings",
         "documentation": {}
     },
@@ -1094,7 +1118,16 @@
         "kind": 5,
         "importPath": "foods.foods.settings",
         "description": "foods.foods.settings",
-        "peekOfCode": "MEDIA_ROOT = BASE_DIR / 'media'",
+        "peekOfCode": "MEDIA_ROOT = BASE_DIR / 'media'\nCACHES = {\n    'default': {\n        'BACKEND': 'django.core.cache.backends.locmem.LocMemCache',\n        'LOCATION': 'unique-calorie-tracker-cache',\n        'TIMEOUT': 300,  # 5 minutes cache\n    }\n}",
+        "detail": "foods.foods.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CACHES",
+        "kind": 5,
+        "importPath": "foods.foods.settings",
+        "description": "foods.foods.settings",
+        "peekOfCode": "CACHES = {\n    'default': {\n        'BACKEND': 'django.core.cache.backends.locmem.LocMemCache',\n        'LOCATION': 'unique-calorie-tracker-cache',\n        'TIMEOUT': 300,  # 5 minutes cache\n    }\n}",
         "detail": "foods.foods.settings",
         "documentation": {}
     },
@@ -1202,7 +1235,7 @@
         "kind": 6,
         "importPath": "foods.foodtracker.api_views",
         "description": "foods.foodtracker.api_views",
-        "peekOfCode": "class FoodSearchApiView(APIView):\n    permission_classes = [IsAuthenticated]\n    serializer_class = FoodSearchSerializer\n    def get(self, request, *args, **kwargs):\n        print(\"DEBUG: FoodSearchView GET method hit!\")\n        serializer = self.serializer_class(data=request.query_params)\n        serializer.is_valid(raise_exception=True)\n        query = serializer.validated_data['query']\n        search_results = search_food_on_open_food_facts(query)\n        return Response(search_results, status=status.HTTP_200_OK)",
+        "peekOfCode": "class FoodSearchApiView(APIView):\n    permission_classes = [IsAuthenticated]\n    serializer_class = FoodSearchSerializer\n    @method_decorator(cache_page(60*5))  # Cache for 5 minutes\n    def get(self, request, *args, **kwargs):\n        print(\"DEBUG: FoodSearchView GET method hit!\")\n        serializer = self.serializer_class(data=request.query_params)\n        serializer.is_valid(raise_exception=True)\n        query = serializer.validated_data['query']\n        # Create a unique cache key based on the query and user",
         "detail": "foods.foodtracker.api_views",
         "documentation": {}
     },
@@ -1229,7 +1262,7 @@
         "kind": 6,
         "importPath": "foods.foodtracker.api_views",
         "description": "foods.foodtracker.api_views",
-        "peekOfCode": "class DailySummaryView(generics.RetrieveAPIView):\n    permission_classes = [IsAuthenticated]\n    serializer_class = FoodLogEntrySerializer # Dummy serializer, actual data is aggregated\n    def get(self, request, *args, **kwargs):\n        if getattr(self, 'swagger_fake_view', False) or isinstance(request.user, AnonymousUser):\n            return Response({\n                \"date\": timezone.now().strftime('%Y-%m-%d'),\n                \"total_calories\": 0.00,\n                \"total_protein\": 0.00,\n                \"total_carbs\": 0.00,",
+        "peekOfCode": "class DailySummaryView(generics.RetrieveAPIView):\n    permission_classes = [IsAuthenticated]\n    serializer_class = FoodLogEntrySerializer\n    @method_decorator(cache_page(60*15))  # Cache for 15 minutes\n    def get(self, request, *args, **kwargs):\n        if getattr(self, 'swagger_fake_view', False) or isinstance(request.user, AnonymousUser):\n            return Response({\n                \"date\": timezone.now().strftime('%Y-%m-%d'),\n                \"total_calories\": 0.00,\n                \"total_protein\": 0.00,",
         "detail": "foods.foodtracker.api_views",
         "documentation": {}
     },

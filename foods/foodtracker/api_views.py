@@ -10,6 +10,9 @@ from django.utils import timezone
 import requests
 import decimal
 from django.contrib.auth.models import AnonymousUser
+from django.core.cache import cache
+from django.utils.decorators import method_decorator
+from django.views.decorators.cache import cache_page
 
 OPEN_FOOD_FACTS_BASE_URL = "https://world.openfoodfacts.org/cgi/search.pl"
 OPEN_FOOD_FACTS_PRODUCT_URL = "https://world.openfoodfacts.org/api/v0/product/"
@@ -113,13 +116,25 @@ class FoodSearchApiView(APIView):
     permission_classes = [IsAuthenticated]
     serializer_class = FoodSearchSerializer
     
+    @method_decorator(cache_page(60*5))  # Cache for 5 minutes
     def get(self, request, *args, **kwargs):
         print("DEBUG: FoodSearchView GET method hit!")
         serializer = self.serializer_class(data=request.query_params)
         serializer.is_valid(raise_exception=True)
         query = serializer.validated_data['query']
 
+        # Create a unique cache key based on the query and user
+        cache_key = f"food_search_{request.user.id}_{query}"
+        cached_results = cache.get(cache_key)
+        
+        if cached_results is not None:
+            return Response(cached_results, status=status.HTTP_200_OK)
+            
         search_results = search_food_on_open_food_facts(query)
+        
+        # Cache the results for 5 minutes (300 seconds)
+        cache.set(cache_key, search_results, 300)
+        
         return Response(search_results, status=status.HTTP_200_OK)
 
 class FoodLogEntryListCreateView(generics.ListCreateAPIView):
@@ -264,8 +279,9 @@ class FoodLogEntryRetrieveUpdateDestroyView(generics.RetrieveUpdateDestroyAPIVie
         
 class DailySummaryView(generics.RetrieveAPIView):
     permission_classes = [IsAuthenticated]
-    serializer_class = FoodLogEntrySerializer # Dummy serializer, actual data is aggregated
-
+    serializer_class = FoodLogEntrySerializer
+    
+    @method_decorator(cache_page(60*15))  # Cache for 15 minutes
     def get(self, request, *args, **kwargs):
         if getattr(self, 'swagger_fake_view', False) or isinstance(request.user, AnonymousUser):
             return Response({
@@ -280,11 +296,17 @@ class DailySummaryView(generics.RetrieveAPIView):
             }, status=status.HTTP_200_OK)
         
         log_date_str = request.query_params.get('date', timezone.now().strftime('%Y-%m-%d'))
+        cache_key = f"daily_summary_{request.user.id}_{log_date_str}"
+        cached_data = cache.get(cache_key)
+        
+        if cached_data is not None:
+            return Response(cached_data, status=status.HTTP_200_OK)
+            
         try:
             log_date = timezone.datetime.strptime(log_date_str, '%Y-%m-%d').date()
         except ValueError:
             return Response({"date": _("Invalid date format. UseYYYY-MM-DD.")},
-                            status=status.HTTP_400_BAD_REQUEST)
+                          status=status.HTTP_400_BAD_REQUEST)
 
         daily_logs = FoodLogEntry.objects.filter(
             user=request.user,
@@ -300,22 +322,18 @@ class DailySummaryView(generics.RetrieveAPIView):
             total_fiber=Sum('fiber_consumed')
         )
 
-        total_calories = summary['total_calories'] or decimal.Decimal(0)
-        total_protein = summary['total_protein'] or decimal.Decimal(0)
-        total_carbs = summary['total_carbs'] or decimal.Decimal(0)
-        total_fat = summary['total_fat'] or decimal.Decimal(0)
-        total_sugars = summary['total_sugars'] or decimal.Decimal(0)
-        total_fiber = summary['total_fiber'] or decimal.Decimal(0)
-
         response_data = {
             "date": log_date.strftime('%Y-%m-%d'),
-            "total_calories": round(total_calories, 2),
-            "total_protein": round(total_protein, 2),
-            "total_carbs": round(total_carbs, 2),
-            "total_fat": round(total_fat, 2),
-            "total_sugars": round(total_sugars, 2),
-            "total_fiber": round(total_fiber, 2),
+            "total_calories": round(summary['total_calories'] or decimal.Decimal(0), 2),
+            "total_protein": round(summary['total_protein'] or decimal.Decimal(0), 2),
+            "total_carbs": round(summary['total_carbs'] or decimal.Decimal(0), 2),
+            "total_fat": round(summary['total_fat'] or decimal.Decimal(0), 2),
+            "total_sugars": round(summary['total_sugars'] or decimal.Decimal(0), 2),
+            "total_fiber": round(summary['total_fiber'] or decimal.Decimal(0), 2),
             "log_entries": FoodLogEntrySerializer(daily_logs, many=True, context={'request': request}).data
         }
 
+        # Cache for 15 minutes (900 seconds)
+        cache.set(cache_key, response_data, 900)
+        
         return Response(response_data, status=status.HTTP_200_OK)
